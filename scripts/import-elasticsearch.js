@@ -4,8 +4,6 @@ const fs = require('fs');
 const { Client } = require('@elastic/elasticsearch')
 const heroesIndexName = 'heroes'
 
-// TODO
-console.log("TODO ;-)");
 
 async function run() {
     const client = new Client({ node: 'http://localhost:9200' })
